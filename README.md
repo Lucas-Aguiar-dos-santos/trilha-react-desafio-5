@@ -1,5 +1,5 @@
 Dei um fork mais o projeto não esta finalizado.
-tem muito erros para corrigir e eu não sei como fazelos no momento estou estudando para corrigir isto.
+Tem muito erros para corrigir e eu não sei como fazelos no momento estou estudando para corrigir isto.
 
 
 
