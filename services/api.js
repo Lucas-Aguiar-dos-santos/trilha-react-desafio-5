@@ -1,9 +1,12 @@
 import axios from 'axios';
 
+
+
 export const api  = axios.create({
-    baseURL: 'https://nuareafrukmnjnaakplk.supabase.co/rest/v1',
+
+    baseURL: 'https://vcvatqaqetkrqsswrqlf.supabase.co/rest/v1/Post?select=id',
     headers: {
-        apikey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im51YXJlYWZydWttbmpuYWFrcGxrIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjAyMjc0MjEsImV4cCI6MTk3NTgwMzQyMX0.3qUEldVsmcr_yrpf8N1-qBGdHLB1QCy9nB6-nApVQIA",
-        authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im51YXJlYWZydWttbmpuYWFrcGxrIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjAyMjc0MjEsImV4cCI6MTk3NTgwMzQyMX0.3qUEldVsmcr_yrpf8N1-qBGdHLB1QCy9nB6-nApVQIA"
+        apikey: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZjdmF0cWFxZXRrcnFzc3dycWxmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxODc1MjM4NiwiZXhwIjoyMDM0MzI4Mzg2fQ.osNZxnYphNeWUjCprkYsNTrC145qIw3i7pZSvOaCkVc", 
+        Authorization: "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZjdmF0cWFxZXRrcnFzc3dycWxmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcxODc1MjM4NiwiZXhwIjoyMDM0MzI4Mzg2fQ.osNZxnYphNeWUjCprkYsNTrC145qIw3i7pZSvOaCkVc"
     }
 })
